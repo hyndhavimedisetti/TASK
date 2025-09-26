@@ -1,0 +1,11 @@
+The Simple Poll Generator (DecideQuick) is a lightweight web application designed for frictionless consensus-building on minor, day-to-day decisions. Its core appeal lies in its simplicity: users quickly input a single question and a list of options, generating a unique, shareable URL instantly. Critically, the application requires no user accounts or logins for either creation or voting, making the process anonymous and fast. Voters simply click a link, select an option, and their vote is immediately tallied and reflected in a real-time results chart using a library like Chart.js. This streamlined approach minimizes the digital friction often associated with complex surveys, allowing teams or groups to quickly resolve informal choices like meeting times, lunch orders, or preferred design options.
+Collaboration Benefits for the Team
+This project is excellent for new collaborators because the tasks are cleanly separated:
+
+Frontend Team: Can focus entirely on the User Interface (UI)—making the creation form look good, ensuring the voting buttons are clear, and correctly initializing the Chart.js visualization.
+
+Backend Team: Can focus entirely on the API and Database—ensuring the three simple endpoints work reliably and securely (especially the vote counter).
+
+Full-Stack/DevOps: Can manage the Routing and Deployment—linking the unique {id} in the URL to the GET endpoint, and setting up the easy deployment process (e.g., to Heroku/Render).
+The Simple Poll Generator (or DecideQuick) is a lightweight web application designed to create, share, and track simple, single-question polls with minimal fuss. The goal is to be faster and less distracting than email threads or complex survey tools.
+
